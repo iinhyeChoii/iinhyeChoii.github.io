@@ -148,7 +148,7 @@ blockquote {
 pre,
 code {
   @include relative-font-size(0.9375);
-  border-radius: 10px;
+  border-radius: 5px;
   border: none;
 
 }
@@ -160,7 +160,7 @@ code {
 pre {
   padding: 8px 12px;
   overflow-x: auto;
-  background-color: $block-background-color;
+  background: $block-background-color;
 
   > code {
     border: 0;
