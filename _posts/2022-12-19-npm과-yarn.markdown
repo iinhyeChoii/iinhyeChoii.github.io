@@ -1,0 +1,76 @@
+
+## 📦 **npm**
+
+자바스크립트 개발자들이 패키징 된 코드 모듈을 쉽게 명령어로 공유하고 다운로드 할 수 있게 도와주는 Node.js의 패키지 관리자로 2009년 오픈 소스 프로젝트로 시작됐습니다.
+
+🔗 **GitHub Link:** [https://github.com/npm/cli](https://github.com/npm/cli)
+
+🔗 **Docs Link:** [https://docs.npmjs.com/](https://docs.npmjs.com/)
+
+### CLI Commands
+
+[https://docs.npmjs.com/cli/v7/commands](https://docs.npmjs.com/cli/v7/commands)
+
+{% highlight bash %}
+# package.json 파일의 전체 dependencies를 설치
+npm install
+
+# 현재 작업중인 디렉토리 내에 있는 ./node_modules에 [package]를 설치
+npm install [package]
+
+# (기본 옵션) [package]를 설치 하면서 package.json 파일에 있는 dependencies 객체에 지금 설치한 패키지 정보를 추가
+npm install [package] --save
+
+# --save 옵션과 같이 package.json파일에 의존성 내용을 추가하지만 dependencies가 아닌 devDepenencies 객체에 추가 - 운영환경에서 실제 사용하지는 않고 개발 시에만 사용하는 경우(예를 들어 Prettier, ESLint)
+npm install [package] --save-dev
+
+# 패키지 제거
+npm uninstall [package]
+
+# 패키지 업데이트
+npm update [package]
+{% endhighlight %}
+
+### 💁‍♂️ npx?
+
+npm에서 제공해주는 하나의 도구
+
+- 패키지를 임시 설치해서 실행
+- 다른 버전의 노드 실행
+- gist에 스크립트 공유 가능
+
+실행 요청한 패키지가 경로에 있는지 먼저 확인하고, 경로에 있다면 그대로 실행하고 경로에 없다면 최신 버전의 패키지를 설치한 후 해당 패키지 실행합니다.
+
+# 🧶 yarn
+
+npm과 같이 자바스크립트 개발자들이 패키징 된 코드 모듈을 쉽게 명령어로 공유하고 다운로드 할 수 있게 도와주는 패키지 관리자로 2016년 React 같은 프로젝트 진행하면서 겪었던 속도나 안정성 측면의 어려움같은 npm의 단점을 개선하기 위해 페이스북에서 개발되었습니다.
+
+### ****CLI Commands****
+
+[https://classic.yarnpkg.com/lang/en/docs/cli/](https://classic.yarnpkg.com/lang/en/docs/cli/)
+
+{% highlight bash %}
+# 패키지를 현재 프로젝트에 추가
+yarn add
+
+# 대화식 세션을 통해 package.json 초기 세팅 값 설정
+yarn init 
+
+# package.json 파일의 전체 dependencies 설치
+yarn install
+
+yarn add --dev [package]
+# --save 옵션과 같이 package.json파일에 의존성 내용을 추가하지만 dependencies가 아닌 devDepenencies 객체에 추가한다. 운영환경에서 실제 사용하지는 않고 개발 시에만 사용하는 경우(예를 들어 Prettier, ESLint)
+
+yarn remove [package]
+# 패키지 제거
+
+yarn upgrade [package]
+# 패키지 업데이트
+{% endhighlight %}
+
+# 🔗 참고 자료
+
+[Announcing Yarn 1.0](https://engineering.fb.com/2017/09/07/web/announcing-yarn-1-0/)
+
+[NPM vs Yarn: Which package manager should I use?](https://www.imaginarycloud.com/blog/npm-vs-yarn-which-is-better/)
