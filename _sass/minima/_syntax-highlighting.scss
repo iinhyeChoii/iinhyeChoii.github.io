@@ -9,6 +9,7 @@ $dt-gray: #44475a;
   // Foreground
 $dt-gray-light: #f8f8f2;
   // Comment
+$dt-gray-comment :#7b7b7b;
 $dt-blue: #6272a4;
 
 $dt-cyan: #8be9fd;
@@ -150,7 +151,9 @@ $dt-yellow: #f1fa8c;
   {font-style: italic}
 
 
-  .c,
+  .c
+  {color: $dt-gray-comment}
+
   .ch,
   .cm,
   .cpf,

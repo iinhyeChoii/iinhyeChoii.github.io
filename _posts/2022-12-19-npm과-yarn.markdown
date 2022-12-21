@@ -1,5 +1,5 @@
 
-## 📦 **npm**
+## 📦 npm
 
 자바스크립트 개발자들이 패키징 된 코드 모듈을 쉽게 명령어로 공유하고 다운로드 할 수 있게 도와주는 Node.js의 패키지 관리자로 2009년 오픈 소스 프로젝트로 시작됐습니다.
 
@@ -7,7 +7,7 @@
 
 🔗 **Docs Link:** [https://docs.npmjs.com/](https://docs.npmjs.com/)
 
-### CLI Commands
+#### CLI Commands
 
 [https://docs.npmjs.com/cli/v7/commands](https://docs.npmjs.com/cli/v7/commands)
 
@@ -41,11 +41,11 @@ npm에서 제공해주는 하나의 도구
 
 실행 요청한 패키지가 경로에 있는지 먼저 확인하고, 경로에 있다면 그대로 실행하고 경로에 없다면 최신 버전의 패키지를 설치한 후 해당 패키지 실행합니다.
 
-# 🧶 yarn
+## 🧶 yarn
 
 npm과 같이 자바스크립트 개발자들이 패키징 된 코드 모듈을 쉽게 명령어로 공유하고 다운로드 할 수 있게 도와주는 패키지 관리자로 2016년 React 같은 프로젝트 진행하면서 겪었던 속도나 안정성 측면의 어려움같은 npm의 단점을 개선하기 위해 페이스북에서 개발되었습니다.
 
-### CLI Commands
+#### CLI Commands
 
 [https://classic.yarnpkg.com/lang/en/docs/cli/](https://classic.yarnpkg.com/lang/en/docs/cli/)
 
