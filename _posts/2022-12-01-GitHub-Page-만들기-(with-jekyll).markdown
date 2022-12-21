@@ -8,13 +8,13 @@
 💡 루비와 Bundler가 설치 되어 있어야 합니다.
 </aside>
 
-GitHub page 프로젝트 root에서 아래를 실행합니다. (빈 Gemgile로 새 Bundler 프로젝트를 생성)
+GitHub page 프로젝트 root에서 아래를 실행합니다. (빈 Gemfile로 새 Bundler 프로젝트를 생성)
 
 {% highlight bash %}
 bundle init
 {% endhighlight %}
 
-옵션 권장 사항 - `./vendor/bundle/` 하위 디렉토리를 만들고 여기에 젬을 설치하도록 Bundler를 설정해줍니다. 
+옵션 권장 사항 - `./vendor/bundle/` 하위 디렉토리를 만들고 여기에 gem을 설치하도록 Bundler를 설정해줍니다. 
 이는 의존 요소들을 고립된 환경에 설치해서, 시스템에 설치된 다른 gem들과 충돌이 발생하지 않도록 보장해줍니다. 
 
 {% highlight bash %}
@@ -23,7 +23,7 @@ bundle config set path 'vendor/bundle'
 
 ## 3. Jekyll 추가하기
 
-Bundler를 사용해서 Jekyll get을 Gemfile 에 추가하고 `./vendor/bundle/` 폴더에 설치합니다.
+Bundler를 사용해서 Jekyll gem을 Gemfile 에 추가하고 `./vendor/bundle/` 폴더에 설치합니다.
 
 {% highlight bash %}
 bundle add jekyll

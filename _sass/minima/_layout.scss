@@ -2,12 +2,10 @@
  * Site header
  */
 .site-header {
-  //border-top: 5px solid $grey-color-dark;
-  border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
-
   // Positioning context for the mobile navigation icon
   position: relative;
+  padding-top: 10px;
 }
 
 .site-title {
@@ -16,11 +14,23 @@
   line-height: $base-line-height * $base-font-size * 2.25;
   letter-spacing: -1px;
   margin-bottom: 0;
+  margin-right: 10px;
   float: left;
 
   &,
   &:visited {
     color: #ffffff;
+  }
+}
+
+.site-logo {
+  height: $base-line-height * $base-font-size * 2.25;
+  margin-bottom: 0;
+  margin-right: 10px;
+  float: left;
+
+  img {
+    width: 100px;
   }
 }
 
@@ -42,7 +52,7 @@
 
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
-      margin-right: 20px;
+      margin-right: 10px;
     }
   }
 
@@ -111,7 +121,7 @@
 }
 
 .footer-heading {
-  @include relative-font-size(1.125);
+  //@include relative-font-size(1.125);
   margin-bottom: $spacing-unit / 2;
 }
 

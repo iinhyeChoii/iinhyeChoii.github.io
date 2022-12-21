@@ -26,8 +26,12 @@ description: >- # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 baseurl: ""
 url: https://iinhyechoii.github.io
-twitter_username: ""
+linkedin_username: "inhye-choi"
 github_username: iinhyeChoii
+header_pages:
+  - index.markdown
+  - about.markdown
+  - contact.markdown
 
 # Build settings
 theme: minima
